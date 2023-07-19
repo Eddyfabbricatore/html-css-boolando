@@ -74,3 +74,64 @@ header .topbar .container{
 .login i{
   color: white;
 }
+
+
+/* main */
+main{
+  margin-top: 120px;
+}
+
+main .container{
+	display: flex;
+	flex-wrap: wrap;
+  align-items: center;
+	width: 80%;
+	max-width: 1000px;
+	margin: 0px auto;
+}
+
+.product{
+	position: relative;
+	margin: 0 2px;
+	cursor: pointer;
+  flex-basis: 350px; 
+}
+
+.product-image .heart{
+	position: absolute;
+	top: 10px;
+	right: 0;
+	padding: 5px 10px;
+  font-size: 2rem;
+  background-color: white;
+}
+
+.product-image .discount{
+	position: absolute;
+	bottom: 85px;
+	left: 0;
+  padding: 5px 10px;
+	background-color: red;
+	color: white;
+}
+
+.product-image .sustainability{
+	position: absolute;
+	bottom: 85px;
+	left: 55px;
+  padding: 5px 10px;
+	background-color: green;
+	color: white;
+}
+
+.product-dati p{
+  font-weight: bold;
+}
+
+.product-dati .new-price{
+  color: red;
+}
+
+.product-dati .old-price{
+  text-decoration: line-through;
+}
